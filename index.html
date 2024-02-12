@@ -122,6 +122,24 @@
                         </div>
                     </div>
                 </div>
+                <!-- Pentagon card  -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="images/ellipse.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">ellipse</h2>
+                        <p class="text-2xl text-center">Area (A) = π * a * b</p>
+                        <input id="ellipse-input-a" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="a">
+                        <input id="ellipse-input-b" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="b">
+
+                        <div>
+                            <p class="text-2xl text-center"> Area:<span id="ellipse-displaly">0</span> cm</p>
+                        </div>
+                        <div class="card-actions ">
+                            <button onclick="ellipseAreaColculation()"
+                                class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- aria calculation container ----------------------- -->
             <div class="w-96 border-2 border-r-gray-700 rounded-md p-4">
@@ -134,6 +152,7 @@
     <script src="js/parallelogram.js"></script>
     <script src="js/rhombus.js"></script>
     <script src="js/pentagon.js"></script>
+    <script src="js/ellipse.js"></script>
 </body>
 
 </html>
