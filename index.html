@@ -70,10 +70,8 @@
                     <div class="card-body">
                         <h2 class="card-title">parallelogram</h2>
                         <p>Area (A) = b * h </p>
-                        <input id="parallelogram-Base-Input" type="text" class="text-2xl p-2 rounded-sm"
-                            placeholder="base"> <span class="ml-3 mr-3">cm</span>
-                        <input id="parallelogram-h-input" type="text" class="text-2xl p-2 rounded-sm"
-                            placeholder="height">
+                        <input id="parallelogram-Base-Input" type="text" class="text-2xl p-2 rounded-sm" placeholder="base"> <span class="ml-3 mr-3">cm</span>
+                        <input id="parallelogram-h-input" type="text" class="text-2xl p-2 rounded-sm" placeholder="height">
                         <div>
                             <p class="text-2xl text-center">Area: <span id="parallelogramArea">0</span> <span>cm
                                     <sup>2</sup></span></p>
@@ -110,9 +108,11 @@
                     <div class="card-body">
                         <h2 class="card-title">Pentagon</h2>
                         <p class="text-2xl text-center">Area (A) = 0.5 * p * a</p>
-                        <input id="pantagn-input-p" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="p">
+                       <div>
+                        <input id="pantagn-input-p" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="p"><span class="ml-3 mr-3">cm</span>
                         <input id="pantagn-input-a" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="a">
 
+                       </div>
                         <div>
                             <p class="text-2xl text-center"> Area:<span id="pentagon-displaly">0</span> cm</p>
                         </div>
@@ -122,15 +122,17 @@
                         </div>
                     </div>
                 </div>
-                <!-- Pentagon card  -->
+                <!-- Ellipse card  -->
                 <div class="card w-96 bg-base-100 shadow-xl">
                     <figure><img src="images/ellipse.png" alt="Shoes" /></figure>
                     <div class="card-body">
                         <h2 class="card-title">ellipse</h2>
                         <p class="text-2xl text-center">Area (A) = π * a * b</p>
-                        <input id="ellipse-input-a" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="a">
-                        <input id="ellipse-input-b" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="b">
-
+                        <div class="">
+                            <input id="ellipse-input-a" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="a"> <span class="ml-3 mr-3">cm</span>
+                            <input id="ellipse-input-b" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="b">
+    
+                        </div>
                         <div>
                             <p class="text-2xl text-center"> Area:<span id="ellipse-displaly">0</span> cm</p>
                         </div>
