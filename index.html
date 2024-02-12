@@ -60,28 +60,40 @@
                       </div>
                     </div>
                   </div>
-                <!-- triangle card  -->
+                <!-- Paralleligram card  -->
                 <div class="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    <figure><img src="images/parallelogram.png"
                             alt="Shoes" /></figure>
                     <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-
-                        <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                        <h2 class="card-title">parallelogram</h2>
+                        <p>Area (A) = b * h </p>
+                        <input id="parallelogram-Base-Input" type="text" class="text-2xl p-2 rounded-sm" placeholder="base"> <span class="ml-3 mr-3">cm</span>
+                        <input id="parallelogram-h-input" type="text" class="text-2xl p-2 rounded-sm" placeholder="height">
+                        <div>
+                            <p class="text-2xl text-center">Area: <span id="parallelogramArea">0</span> <span>cm <sup>2</sup></span></p>
+                        </div>
+                        <div class="card-actions ">
+                            <button onclick="btnPallelogram()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
-                <!-- triangle card  -->
+                <!-- Rhombus card  -->
                 <div class="card w-96 bg-base-100 shadow-xl">
-                    <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
+                    <figure><img src="images/rhombus.png"
                             alt="Shoes" /></figure>
                     <div class="card-body">
-                        <h2 class="card-title">Shoes!</h2>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
+                        <h2 class="card-title">Rhombus</h2>
+                        <p class="text-2xl text-center">Area (A) = 0.5 * d<sub>1</sub> * d<sub>2</sub></p>
+                        <div>
+                            <input id="diagonal-input-one" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="d1"><span class="ml-3 mr-3">cm</span>
+                            <input id="diagonal-input-two" type="text" class="w-24 text-2xl p-2 rounded-sm" placeholder="d2">
+                        </div>
+                        <div>
+                            <p class="text-2xl text-center">Area: <span id="rhmobus-span-display">0</span> cm</p>
+                        </div>
+
+                        <div class="card-actions ">
+                            <button onclick="rhombusCalculation()" class="btn btn-primary w-full">Calculate</button>
                         </div>
                     </div>
                 </div>
@@ -106,6 +118,8 @@
     </main>
     <script src="js/triangle.js"></script>
     <script src="js/rectangle.js"></script>
+    <script src="js/parallelogram.js"></script>
+    <script src="js/rhombus.js"></script>
 </body>
 
 </html>
